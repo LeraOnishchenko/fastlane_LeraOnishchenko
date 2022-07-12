@@ -10,7 +10,7 @@ import FirebaseCore
 import FirebaseFirestore
 import FirebaseAuth
 import FirebaseCrashlytics
-
+//туц срфтпу
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
