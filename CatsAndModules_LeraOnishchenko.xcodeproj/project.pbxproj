@@ -29,6 +29,7 @@
 		CF9263B3287C9EE10090250C /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9263B1287C9E560090250C /* SnapshotHelper.swift */; };
 		CF9263B4287CDB050090250C /* Networking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF1207D2285CDF5800F7309A /* Networking.framework */; };
 		CF9263B5287CDB050090250C /* Networking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CF1207D2285CDF5800F7309A /* Networking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CF9263B8287DEC650090250C /* release_notes.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF9263B7287DEC650090250C /* release_notes.strings */; };
 		CFDAEA88286E205000B477CC /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = CFDAEA87286E205000B477CC /* FirebaseAnalytics */; };
 		CFDAEA8A286E205000B477CC /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = CFDAEA89286E205000B477CC /* FirebaseAnalyticsOnDeviceConversion */; };
 		CFDAEA8C286E205000B477CC /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CFDAEA8B286E205000B477CC /* FirebaseAnalyticsSwift */; };
@@ -115,6 +116,7 @@
 		CF9263A5287C9E180090250C /* Appfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Appfile; sourceTree = "<group>"; };
 		CF9263A7287C9E180090250C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CF9263B1287C9E560090250C /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapshotHelper.swift; sourceTree = "<group>"; };
+		CF9263B7287DEC650090250C /* release_notes.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = release_notes.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +175,7 @@
 		CF1207AD285CDF3A00F7309A = {
 			isa = PBXGroup;
 			children = (
+				CF9263B7287DEC650090250C /* release_notes.strings */,
 				CF92638A287C56A70090250C /* fastlane */,
 				CF032265286E05D700ECADE2 /* GoogleService-Info.plist */,
 				CF1207B8285CDF3A00F7309A /* CatsAndModules_LeraOnishchenko */,
@@ -392,6 +395,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF926391287C56A70090250C /* Fastfile in Resources */,
+				CF9263B8287DEC650090250C /* release_notes.strings in Resources */,
 				CF1207C6285CDF3A00F7309A /* LaunchScreen.storyboard in Resources */,
 				CF92638F287C56A70090250C /* Appfile in Resources */,
 				CF9263AB287C9E180090250C /* Pluginfile in Resources */,
@@ -627,8 +631,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = VNU8KKW4GG;
@@ -645,10 +649,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "ua.edu.ukma.onishchenko.CatsAndModules-LeraOnishchenko";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = "UKMA Edu Shared Profile";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -660,8 +664,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = VNU8KKW4GG;
@@ -678,10 +682,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "ua.edu.ukma.onishchenko.CatsAndModules-LeraOnishchenko";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = "UKMA Edu Shared Profile";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -693,7 +697,7 @@
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = VNU8KKW4GG;
@@ -729,7 +733,7 @@
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = VNU8KKW4GG;
@@ -762,6 +766,8 @@
 		CF92639F287C8C2B0090250C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = VNU8KKW4GG;
@@ -770,6 +776,8 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "ua.edu.ukma.onishchenko.App-UI-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -780,6 +788,8 @@
 		CF9263A0287C8C2B0090250C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = VNU8KKW4GG;
@@ -788,6 +798,8 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "ua.edu.ukma.onishchenko.App-UI-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
