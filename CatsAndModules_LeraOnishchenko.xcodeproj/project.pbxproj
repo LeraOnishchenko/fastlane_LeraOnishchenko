@@ -29,7 +29,6 @@
 		CF9263B3287C9EE10090250C /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9263B1287C9E560090250C /* SnapshotHelper.swift */; };
 		CF9263B4287CDB050090250C /* Networking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF1207D2285CDF5800F7309A /* Networking.framework */; };
 		CF9263B5287CDB050090250C /* Networking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CF1207D2285CDF5800F7309A /* Networking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		CF9263B8287DEC650090250C /* release_notes.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF9263B7287DEC650090250C /* release_notes.strings */; };
 		CFDAEA88286E205000B477CC /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = CFDAEA87286E205000B477CC /* FirebaseAnalytics */; };
 		CFDAEA8A286E205000B477CC /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = CFDAEA89286E205000B477CC /* FirebaseAnalyticsOnDeviceConversion */; };
 		CFDAEA8C286E205000B477CC /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CFDAEA8B286E205000B477CC /* FirebaseAnalyticsSwift */; };
@@ -116,7 +115,6 @@
 		CF9263A5287C9E180090250C /* Appfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Appfile; sourceTree = "<group>"; };
 		CF9263A7287C9E180090250C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CF9263B1287C9E560090250C /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapshotHelper.swift; sourceTree = "<group>"; };
-		CF9263B7287DEC650090250C /* release_notes.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = release_notes.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,7 +173,6 @@
 		CF1207AD285CDF3A00F7309A = {
 			isa = PBXGroup;
 			children = (
-				CF9263B7287DEC650090250C /* release_notes.strings */,
 				CF92638A287C56A70090250C /* fastlane */,
 				CF032265286E05D700ECADE2 /* GoogleService-Info.plist */,
 				CF1207B8285CDF3A00F7309A /* CatsAndModules_LeraOnishchenko */,
@@ -395,7 +392,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF926391287C56A70090250C /* Fastfile in Resources */,
-				CF9263B8287DEC650090250C /* release_notes.strings in Resources */,
 				CF1207C6285CDF3A00F7309A /* LaunchScreen.storyboard in Resources */,
 				CF92638F287C56A70090250C /* Appfile in Resources */,
 				CF9263AB287C9E180090250C /* Pluginfile in Resources */,
