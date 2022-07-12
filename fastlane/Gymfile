@@ -1,0 +1,7 @@
+clean(true)
+scheme("CatsAndModules_LeraOnishchenko")
+configuration("Release")
+destination("generic/platform=iOS")
+output_directory("./output")
+output_name("CatsAndModules_LeraOnishchenko.ipa")
+export_method("development")

@@ -1,0 +1,6 @@
+devices(["iPhone 8", "iPhone 13"])
+languages(["en-US", "de-DE"])
+scheme("App_UI_Test")
+output_directory("./screenshots")
+clear_previous_screenshots(true)
+override_status_bar(true)
