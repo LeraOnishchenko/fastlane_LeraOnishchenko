@@ -3,14 +3,13 @@
 //  CatsAndModules_LeraOnishchenko
 //
 //  Created by lera on 17.06.2022.
-//авипи
+
 
 import UIKit
 import FirebaseCore
 import FirebaseFirestore
 import FirebaseAuth
 import FirebaseCrashlytics
-//туц срфтпуsdfgds
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
