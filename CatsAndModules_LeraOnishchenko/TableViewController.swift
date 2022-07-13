@@ -3,7 +3,6 @@
 //  CatsAndModules_LeraOnishchenko
 //
 //  Created by lera on 17.06.2022.
-//dffdsdgfd
 
 import UIKit
 import Networking
